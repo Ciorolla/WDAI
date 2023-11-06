@@ -1,0 +1,192 @@
+body,
+div {
+    font-family: Lato, PT Sans, Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    color: #555555;
+    text-align: center;
+    line-height: 150%;
+    justify-content: center;
+
+}
+
+input {
+
+    width: min-content;
+}
+
+.mainSegment {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #669900;
+}
+
+.segment,
+.segmentbgCl1,
+.segmentbgCl2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.segmentbgCl1 {
+    background-color: #dddddd;
+}
+
+.segmentbgCl2 {
+    background-color: #EEEEEE;
+}
+
+.segmentColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+.element {
+    flex: 1;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.elementCenter {
+    flex: 1;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementSingleWord {
+    flex: 1;
+    display: flex;
+    padding: 2%;
+}
+
+.elementOpis {
+    flex: 2;
+    display: flex;
+    padding: 5%;
+    text-align: start;
+    flex-direction: column;
+}
+
+
+body {
+    background-color: #FBFBF9;
+    font-family: "Lato", PT Sans, Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.wroc {
+    flex: 1;
+    display: flex;
+    padding: 2%;
+    justify-content: end;
+}
+
+.a16 {
+    font-size: 24px;
+    font-family: "Lato", PT Sans, Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    ;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #669900;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #669900;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4265AE;
+}
+
+a:active {
+    text-decoration: none;
+    font-family: Lato, "PT Sans", Verdana, Geneva, sans-serif;
+    color: #669900;
+}
+
+.LEFT {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+.FONT24 {
+    font-size: 20px;
+}
+
+.a15 {
+    font-size: 20px;
+    font-family: "Lato", PT Sans, Verdana, Geneva, sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+
+.right {
+    text-align: right;
+}
+
+#zajawka {
+    color: #575756;
+    font-size: 18px;
+}
+
+#red {
+    color: #A00;
+}
+
+#green {
+    color: #669900;
+}
+
+
+
+#top table tr td {
+    color: #444444;
+}
+
+@media only screen and (max-width: 600px) {
+    .FONT24 {
+        font-size: 10px;
+    }
+
+    .a15 {
+        font-size: 10px;
+        font-family: "Lato", PT Sans, Verdana, Geneva, sans-serif;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+    #zajawka {
+        color: #575756;
+        font-size: 18px;
+    }
+}
